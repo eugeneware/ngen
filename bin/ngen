@@ -24,7 +24,7 @@ var version = '1.0.0';
  * Templates directory.
  */
 
-var templates = __dirname + '/../templates';
+var templates = process.env.HOME + '/.ngen';
 
 /**
  * Template.
